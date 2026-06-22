@@ -1,8 +1,10 @@
 :root{
+    --border-radius: 20px;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-primary: #3D3D6B;
+    --color-secondary: #EB434A;
 
-    --radius: 20px;
-    --white: #ffffff;
-    --black: #000000;
-    --btn-bg:red;
 
+    --width:1440px;
 }

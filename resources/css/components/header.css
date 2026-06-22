@@ -1,34 +1,44 @@
-.nav-bar{
-    width: 1440px;
-    height: 85px;
+.nav-bar {
+    position: absolute;
+    top: 30px;
+    z-index: 1000;
+    padding: 15px 30px;
+    width:100%
+}
+
+.container {
+    border-radius: var(--border-radius);
+    background-color: var(--color-white);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-radius: var(--radius);
-    background-color: var(--white);
+    width: var(--width);
+    margin: auto;
+    padding: 15px 30px;
 }
-.logo-section img{
+
+.header-logo img {
     width: 114px;
     height: 50px;
 }
 
-.nav-links ul{
+.menu-items {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     gap: 32px;
 }
-.nav-links a{
-    color:var(--black);;
-    font-size: 16px;
 
+.item a {
+    color: var(--color-primary);
+    font-size: 16px;
+    font-family: "Unbounded";
 }
-.social-links{
+
+.social-links {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     gap: 5px;
 }
@@ -36,7 +46,7 @@
 .social-link {
     width: 40px;
     height: 40px;
-    background-color: var(--btn-bg);
+    background-color: var(--color-secondary);
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -44,6 +54,6 @@
 }
 
 .social-link i {
-    color: var(--white);
+    color: var(--color-white);
     font-size: 16px;
 }

@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Unbounded";
+    src: url("../../../public/fonts/Unbounded-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
 * {
     margin: 0;
     padding: 0;
@@ -5,14 +11,18 @@
 }
 
 body {
-  height: 100%;
-  background-color: black;
+    height: 100%;
+    background-color: black;
 }
+
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
-ol, ul {
-    list-style: none;
+ol,
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
