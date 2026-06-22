@@ -1,7 +1,32 @@
-/* .menu-swiper{
+.menu-swiper {
     background: #ff0000;
     width: 100%;
 }
-.container{
-    margin:auto;
-} */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide  {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.swiper-slide .container {
+    position: absolute;
+    color: rgb(255, 0, 0);
+    font-size:12pt;
+    font-family: 'Unbounded';
+  }

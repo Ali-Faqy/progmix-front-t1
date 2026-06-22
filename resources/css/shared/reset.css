@@ -26,3 +26,9 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+.container {
+    width: var(--width);
+    margin: auto;
+
+}

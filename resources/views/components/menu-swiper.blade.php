@@ -1,5 +1,11 @@
-{{-- <div class="menu-swiper">
-    <div class="container">
-        <h2>Hello</h2>
+<div class="menu-swiper">
+        <div class="swiper image-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="{{ asset('images/Section.png') }}" alt="">
+                </div>
+                <div class="swiper-slide"><img src="{{ asset('images/Section.png') }}" alt=""></div>
+                <div class="swiper-slide"><img src="{{ asset('images/Section.png') }}" alt=""></div>
+            </div>
+        </div>
     </div>
-</div> --}}
+</div>
