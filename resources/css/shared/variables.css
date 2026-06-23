@@ -1,10 +1,13 @@
-:root{
+:root {
     --border-radius: 20px;
+    --btn-radius: 35px;
     --color-white: #ffffff;
     --color-black: #000000;
     --color-primary: #3D3D6B;
     --color-secondary: #EB434A;
+    --text-size-header: 48px;
 
-
-    --width:1440px;
+    --grid-container-width: 1440px;
+    --grid-gutter: 18px;
+    --grid-margin: 112px;
 }

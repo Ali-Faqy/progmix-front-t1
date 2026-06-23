@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Unbounded";
+    src: url("../../../public/fonts/Unbounded-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+* {
+    font-family: "Unbounded";
+    color: var(--color-white);
+    box-sizing: border-box;
+    outline: none;
+    -webkit-text-size-adjust: none;
+    /* font-weight: normal !important;
+    letter-spacing: 1.2px !important; */
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-padding-top: 200px;
+    scroll-behavior: smooth;
+}
+
+body {
+    cursor: default;
+    margin: 0;
+    font-size: 16px;
+    background-color: var(--color-white);
+}
+
+.wrapper {
+    overflow-x: clip;
+}
+
+.wrapper--home,
+.wrapper--inner {
+    overflow: visible;
+}
+
+img,
+iframe {
+    display: block;
+    max-width: 100%;
+}
+
+a[href] {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+.lazyloaded {
+    height: auto;
+    width: auto;
+}
+
+.block-with-carousel.loading {
+    min-height: 200px;
+}
+
+/*rtl:ignore*/
+#map {
+    direction: ltr;
+}
+
+/*rtl:ignore*/
+[dir="rtl"] .leaflet-pane,
+[dir="rtl"] .leaflet-tile,
+[dir="rtl"] .leaflet-marker-icon,
+[dir="rtl"] .leaflet-marker-shadow,
+[dir="rtl"] .leaflet-tile-container,
+[dir="rtl"] .leaflet-pane > svg,
+[dir="rtl"] .leaflet-pane > canvas,
+[dir="rtl"] .leaflet-zoom-box,
+[dir="rtl"] .leaflet-image-layer,
+[dir="rtl"] .leaflet-layer {
+    left: 0 !important;
+    right: unset !important;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ul, ol > li{
+    list-style-type: none;
+}
+
+.btn{
+    width: 210px;
+    height: 71px;
+    border-radius: var(--btn-radius);
+}
+@media (max-width: 1535.98px) {
+    .offset-left {
+        padding-left: var(--grid-margin) !important;
+    }
+
+    .offset-right {
+        padding-right: var(--grid-margin) !important;
+    }
+}

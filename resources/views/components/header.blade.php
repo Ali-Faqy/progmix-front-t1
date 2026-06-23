@@ -1,17 +1,17 @@
 <header class="nav-bar">
     <div class="container">
-        <div class="nav">
+        <div class="header-components">
             <div class="header-logo">
                 <img src="{{ asset('images/logo.svg') }}" alt="logo">
             </div>
             <nav class="nav-links">
                 <ul class="menu-items">
-                    <li class='item'><a href="#">About Us</a></li>
-                    <li class='item'><a href="#">Our Portfolio</a></li>
-                    <li class='item'><a href="#">Team</a></li>
-                    <li class='item'><a href="#">Services</a></li>
-                    <li class='item'><a href="#">Packages</a></li>
-                    <li class='item'><a href="#">Contact Us</a></li>
+                    <li><a class='item' href="#">About Us</a></li>
+                    <li><a class='item' href="#">Our Portfolio</a></li>
+                    <li><a class='item' href="#">Team</a></li>
+                    <li><a class='item' href="#">Services</a></li>
+                    <li><a class='item' href="#">Packages</a></li>
+                    <li><a class='item' href="#">Contact Us</a></li>
                 </ul>
             </nav>
             <div class="social-links">
