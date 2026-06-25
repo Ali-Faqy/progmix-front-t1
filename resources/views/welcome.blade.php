@@ -15,7 +15,16 @@
     <x-header></x-header>
     <main>
         <x-main-slider></x-main-slider>
+        <x-how-we-are></x-how-we-are>
+        <x-features></x-features>
+        <x-portfolio></x-portfolio>
+        <x-payment-plan></x-payment-plan>
+        <x-start-project></x-start-project>
+        <x-contact-us></x-contact-us>
     </main>
+    <footer>
+        <x-footer></x-footer>
+    </footer>
 
 </body>
 

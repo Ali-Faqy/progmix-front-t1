@@ -74,6 +74,32 @@ textarea {
     direction: ltr;
 }
 
+.section-primary{
+    width: 100%;
+    background-color: var(--color-primary);
+}
+
+.section-secondary{
+    width: 100%;
+    background-color: var(--color-white);
+}
+
+.p-y-50{
+    padding: 50px 0;
+}
+.element-spacing{
+    margin-top: 15px;
+}
+.justify-center{
+
+    justify-items: center;
+}
+.items-center{
+    display: flex;
+    align-items: center;
+}
+
+
 /*rtl:ignore*/
 [dir="rtl"] .leaflet-pane,
 [dir="rtl"] .leaflet-tile,
@@ -95,19 +121,4 @@ strong {
 
 ul, ol > li{
     list-style-type: none;
-}
-
-.btn{
-    width: 210px;
-    height: 71px;
-    border-radius: var(--btn-radius);
-}
-@media (max-width: 1535.98px) {
-    .offset-left {
-        padding-left: var(--grid-margin) !important;
-    }
-
-    .offset-right {
-        padding-right: var(--grid-margin) !important;
-    }
 }

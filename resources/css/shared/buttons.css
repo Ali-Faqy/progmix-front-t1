@@ -1,0 +1,13 @@
+.secondary-btn{
+    padding: 25px 55px;
+    border-radius: var(--btn-radius);
+    background-color: var(--color-secondary);
+    border: 0;
+}
+
+.outline-btn{
+    background-color: transparent;
+    border: 1px solid var(--color-white);
+    padding: 20px 40px;
+    border-radius: var(--btn-radius);
+}

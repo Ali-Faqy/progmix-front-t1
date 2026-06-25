@@ -1,0 +1,24 @@
+.feature-cards-container{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.left{
+    transform: scale3d(-1,-1,-1);
+}
+.left .feature-card-content{
+    transform: scale3d(-1,-1,-1);
+    padding-left: 50px;
+}
+
+.feature-logo-image{
+    position: relative;
+}
+
+.feature-Certified-Shopify-icon{
+    position: absolute;
+    top:1;
+    transform: translate(80%,50%);
+
+}

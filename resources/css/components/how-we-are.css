@@ -1,0 +1,27 @@
+.section-video-wrapper{
+    position: relative;
+}
+
+.section-aboutUs-video{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-run-video-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-statistics{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-statistics > :not(:first-child) div{
+    border-left: 1px solid white;
+    padding-left: 30px;
+}

@@ -1,13 +1,23 @@
 :root {
     --border-radius: 20px;
     --btn-radius: 35px;
+    --input-radius: 10px;
     --color-white: #ffffff;
     --color-black: #000000;
     --color-primary: #3D3D6B;
+    --color-primary-rgb: 61, 61, 107;
+    --color-black-rgb: 0,0,0;
     --color-secondary: #EB434A;
-    --text-size-header: 48px;
+    --color-accent: #199CB6;
+    --color-gray: rgb(128, 128, 128);
+
+    --gradient-primary: linear-gradient(90deg,
+            #EB434A 0%,
+            #199CB6 100%);
 
     --grid-container-width: 1440px;
     --grid-gutter: 18px;
     --grid-margin: 112px;
+    --text-size-header: 48px;
+
 }

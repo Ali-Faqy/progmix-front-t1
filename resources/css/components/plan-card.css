@@ -1,0 +1,50 @@
+.plan-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--color-primary);
+    border-radius: var(--border-radius);
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    height: 536px;
+}
+
+.plan-info{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.plan-type{
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.plan-price{
+    color: var(--color-white);
+    font-size: var(--text-size-header);
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--color-gray);
+}
+.plan-price > span{
+    color: var(--color-gray);
+    font-size: 16px;
+}
+
+.plan-features{
+    font-size: 12px;
+}
+
+.plan-features > li::marker{
+    content: "✓ ";
+}
+
+.pay-btn{
+    margin-bottom: 15px;
+}
+
+.start-project-btn{
+    display: flex;
+    justify-content: center;
+}

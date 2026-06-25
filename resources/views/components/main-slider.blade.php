@@ -4,12 +4,17 @@
             <div class="swiper-slide">
                 <div class="main-slider-item" style="background-image: url('{{ asset('images/Section.png') }}');">
                     <div class="container">
-                        <div class="main-container">
-                            <h1 class="header-title"><span> Creative</span> Visual<br>Design Agency</h1>
-                            <p class="description">We bring to life the most complex projects, specialize in online booking systems and the creation of aggregator sites. We craft brands, websites, products, and pretty much anything</p>
-                            <button class="discuss-btn btn">let's discuss</button>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="main-container">
+                                    <h1 class="header-title"><span> Creative</span> Visual<br>Design Agency</h1>
+                                    <div class="section-description element-spacing">We bring to life the most complex projects, specialize in
+                                        online booking systems and the creation of aggregator sites. We craft brands,
+                                        websites, products, and pretty much anything.</div>
+                                    <button class="secondary-btn element-spacing">let's discuss</button>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
                 </div>
             </div>
