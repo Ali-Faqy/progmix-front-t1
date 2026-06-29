@@ -26,8 +26,6 @@
 .section-content [class^="col-"]:not(:first-child) .section-statistic-number,
 .section-content [class^="col-"]:not(:first-child) .section-statistic-label {
     padding-left: 25px;
-}
-
-.section-content [class^="col-"]:not(:first-child) {
     border-left: 1px solid white;
 }
+

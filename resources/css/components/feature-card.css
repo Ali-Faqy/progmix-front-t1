@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    box-shadow: 0 0px 3.5px rgba(var(--color-black-rgb), 0.3);
+    box-shadow:  0px 10px 70px 0px rgba(var(--color-black-rgb), 0.08);
 
 }
 .feature-card-content{
