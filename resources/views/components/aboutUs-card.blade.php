@@ -1,4 +1,4 @@
-<div class="aboutUs-card">
+<div class="aboutUs-card bg-white d-flex">
     <img src="{{ asset($icon) }}" alt="">
     <div class="location-info">
         <div class="label">{{ $label }}</div>

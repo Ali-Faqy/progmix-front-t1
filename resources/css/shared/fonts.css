@@ -1,52 +1,4 @@
-/* .section-description {
-    font-size: 16px;
-    line-height: 35px;
-}
-
-.section-title{
-    font-size: var(--text-size-header);
-}
-
-.color-primary{
-    color: var(--color-primary);
-}
-.color-gray{
-    color: var(--color-gray);
-}
-.section-sub-title{
-    display: flex;
-    gap: 15px;
-    align-items: center;
-}
-.section-sub-title > div{
-    width: 6px;
-    height: 6px;
-    background-color: var(--color-white);
-    border-radius: 100%;
-}
-
-.stat-number{
-    color: var(--color-secondary);
-    font-size: 48px;
-}
-
-.section-sub-title.gradient{
-    background: var(--gradient-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.section-sub-title.gradient >div{
-    background: var(--gradient-primary);
-
-}
-
-.text-center{
-    text-align: center;
-} */
-
-.section-subtitle{
+.section-subtitle {
     display: flex;
     gap: 15px;
     align-items: center;
@@ -54,26 +6,43 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    margin-bottom: 15px;
 }
-.section-subtitle > div{
+
+.section-center .section-subtitle{
+    justify-content: center;
+}
+.section-subtitle>div {
     width: 6px;
     height: 6px;
     border-radius: 100%;
     background: var(--gradient-primary);
 }
+
 .section-description {
     font-size: 16px;
     line-height: 35px;
     margin-top: 25px;
-    color: var(--color-gray);
 }
 
-.section-title{
-    margin-top: 15px;
+.section-title {
     font-size: var(--text-size-header);
     color: var(--color-primary);
 }
 
-.text-align-center{
-    text-align: center;
+.section-white .section-title,
+.section-white .section-description,
+.section-white .section-description > p
+{
+    color: var(--color-white);
 }
+
+.section-white .section-subtitle {
+    background: var(--color-white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+ .section-white .section-subtitle > div{
+    background: var(--color-white);
+ }

@@ -6,7 +6,7 @@
 }
 * {
     font-family: "Unbounded";
-    color: var(--color-white);
+    color: var(--color-gray);
     box-sizing: border-box;
     outline: none;
     -webkit-text-size-adjust: none;
@@ -74,20 +74,31 @@ textarea {
     direction: ltr;
 }
 
-.section-primary{
+.section{
     width: 100%;
-    background-color: var(--color-primary);
+}
+
+.section-p{
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
-.section-secondary{
-    width: 100%;
-    background-color: var(--color-white);
-    padding-top: 80px;
-    padding-bottom: 80px;
+.section-center{
+    text-align: center;
 }
 
+.bg-white{
+    background-color: var(--color-white) !important;
+
+}
+
+.bg-primary{
+    background-color: var(--color-primary) !important;
+}
+
+.bg-light-primary{
+    background-color: var(--color-light-primary);
+}
 .section-head{
     display: flex;
     flex-direction: column;
@@ -97,30 +108,33 @@ textarea {
     margin-top: 20px;
 }
 
-
-.p-y-50{
-    padding: 50px 0;
-}
-.element-spacing{
-    margin-top: 15px;
-}
+/* make items in row center */
 .justify-center{
-
-    justify-items: center;
+    justify-content: center;
 }
+
+
 .items-center{
     display: flex;
     align-items: center;
 }
 
+/* make items in col center */
 .align-items-center{
     align-items: center;
 }
 
+.justify-end{
+    justify-content: end;
+}
 .d-flex{
     display: flex;
 }
 
+
+.m-t{
+    margin-top: 70px;
+}
 
 /*rtl:ignore*/
 [dir="rtl"] .leaflet-pane,

@@ -1,5 +1,6 @@
-<section class="container-fluid">
-    <div class="swiper">
+<section class="section section-white bg-primary">
+    <div class="container-fluid">
+        <div class="swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="main-slider-item" style="background-image: url('{{ asset('images/Section.png') }}');">
@@ -8,10 +9,10 @@
                             <div class="col-6">
                                 <div class="main-container">
                                     <h1 class="header-title"><span> Creative</span> Visual<br>Design Agency</h1>
-                                    <div class="section-description element-spacing">We bring to life the most complex projects, specialize in
+                                    <div class="section-description">We bring to life the most complex projects, specialize in
                                         online booking systems and the creation of aggregator sites. We craft brands,
                                         websites, products, and pretty much anything.</div>
-                                    <button class="secondary-btn element-spacing">let's discuss</button>
+                                    <a href="" class="secondary-btn">let's discuss</a>
                                 </div>
                             </div>
                         </div>
@@ -28,5 +29,6 @@
             </div>
         </div>
         <div class="swiper-pagination"></div>
+    </div>
     </div>
 </section>

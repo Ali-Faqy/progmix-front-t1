@@ -23,9 +23,9 @@
         ],
     ];
 @endphp
-<section class="section-secondary">
+<section class="section section-p section-center">
     <div class="container">
-        <div class="section-head align-items-center">
+        <div class="section-head">
             <div class="section-subtitle">
                 <div></div>
                 Pricing Plan
@@ -34,16 +34,37 @@
             <div class="section-title">
                 Pick the perfect Pricing plan
             </div>
-            <div class="section-description text-align-center">
+            <div class="section-description">
                 We help ambitious businesses like yours generate more profits by building awareness,
                 driving web traffic, connecting with customers growing.
             </div>
         </div>
         <div class="section-content">
             <div class="row">
-                @foreach ($plans as $plan)
-                    <x-plan-card :plan="$plan"></x-plan-card>
-                @endforeach
+                <x-plan-card :plans="$plans"></x-plan-card>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section section-p section-center bg-primary section-white">
+    <div class="container">
+        <div class="section-head">
+            <div class="section-subtitle">
+                <div></div>
+                Pricing Plan
+                <div></div>
+            </div>
+            <div class="section-title">
+                Pick the perfect Pricing plan
+            </div>
+            <div class="section-description">
+                We help ambitious businesses like yours generate more profits by building awareness,
+                driving web traffic, connecting with customers growing.
+            </div>
+        </div>
+        <div class="section-content">
+            <div class="row">
+                    <x-plan-card :plans="$plans"></x-plan-card>
             </div>
         </div>
     </div>

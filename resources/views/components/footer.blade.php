@@ -1,8 +1,8 @@
-<footer class="section-primary">
+<footer class="section section-center bg-light-primary">
     <div class="container">
-        <div class="row">
-            <div class="element-spacing footer-copyright col-12 justify-center">
-                <div class="">All Rights Reserved {{ now()->year }}</div>
+            <div class="row">
+            <div class="col-12 justify-center">
+                <div class="footer-copyright">All Rights Reserved {{ now()->year }}</div>
             </div>
         </div>
     </div>
