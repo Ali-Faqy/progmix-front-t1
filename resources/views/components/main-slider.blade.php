@@ -12,7 +12,7 @@
                                     <div class="section-description">We bring to life the most complex projects, specialize in
                                         online booking systems and the creation of aggregator sites. We craft brands,
                                         websites, products, and pretty much anything.</div>
-                                    <a href="" class="secondary-btn">let's discuss</a>
+                                    <a href="#" class="btn secondary-btn">let's discuss</a>
                                 </div>
                             </div>
                         </div>

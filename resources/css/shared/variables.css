@@ -2,6 +2,7 @@
     --border-radius: 20px;
     --btn-radius: 35px;
     --input-radius: 10px;
+    --radius-full: 50%;
     --color-white: #ffffff;
     --color-black: #000000;
     --color-primary: #3D3D6B;
@@ -11,6 +12,7 @@
     --color-accent: #199CB6;
     --color-gray: #606060;
     --color-light-primary: #25254D;
+    --color-light-white: #F2F2FF;
 
     --gradient-primary: linear-gradient(90deg,
             #EB434A 0%,

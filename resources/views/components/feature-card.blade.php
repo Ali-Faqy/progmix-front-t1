@@ -1,3 +1,4 @@
+@props(['title', 'description', 'icon'])
 <div {{ $attributes->merge(['class' => 'feature-card']) }}>
     <div class="feature-card-content">
         <div class="feature-card-content-title">

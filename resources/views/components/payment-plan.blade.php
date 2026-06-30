@@ -26,18 +26,8 @@
 <section class="section section-p section-center">
     <div class="container">
         <div class="section-head">
-            <div class="section-subtitle">
-                <div></div>
-                Pricing Plan
-                <div></div>
-            </div>
-            <div class="section-title">
-                Pick the perfect Pricing plan
-            </div>
-            <div class="section-description">
-                We help ambitious businesses like yours generate more profits by building awareness,
-                driving web traffic, connecting with customers growing.
-            </div>
+            <x-section-head title="Pick the perfect Pricing plan" subtitle="Pricing Plan" description="We help ambitious businesses like yours generate more profits by building awareness,
+                        driving web traffic, connecting with customers growing."/>
         </div>
         <div class="section-content">
             <div class="row">
@@ -49,18 +39,8 @@
 <section class="section section-p section-center bg-primary section-white">
     <div class="container">
         <div class="section-head">
-            <div class="section-subtitle">
-                <div></div>
-                Pricing Plan
-                <div></div>
-            </div>
-            <div class="section-title">
-                Pick the perfect Pricing plan
-            </div>
-            <div class="section-description">
-                We help ambitious businesses like yours generate more profits by building awareness,
-                driving web traffic, connecting with customers growing.
-            </div>
+            <x-section-head title="Pick the perfect Pricing plan" subtitle="Pricing Plan" description="We help ambitious businesses like yours generate more profits by building awareness,
+                        driving web traffic, connecting with customers growing."/>
         </div>
         <div class="section-content">
             <div class="row">

@@ -10,7 +10,7 @@
                     @endforeach
                 </ul>
             </div>
-            <a href="#" class="pay-btn outline-btn">Get Started</a>
+            <a href="#" class="btn pay-btn outline-btn">Get Started</a>
         </div>
     </div>
 @endforeach

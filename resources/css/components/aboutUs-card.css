@@ -1,4 +1,5 @@
 .aboutUs-card{
+    flex:1;
     padding: 25px;
     border-radius: var(--border-radius);
     gap: 10px;

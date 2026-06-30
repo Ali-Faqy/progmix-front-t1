@@ -1,3 +1,4 @@
+@props(['icon', 'label', 'info'])
 <div class="aboutUs-card bg-white d-flex">
     <img src="{{ asset($icon) }}" alt="">
     <div class="location-info">

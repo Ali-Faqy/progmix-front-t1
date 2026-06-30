@@ -2,15 +2,15 @@
     <div class="container">
         <div class="section-head">
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 d-flex">
                     <x-aboutUs-card label='Visit Our Location' info='5th Street, 21st Floor, New York, USA'
                         icon='images/location-icon.png' />
                 </div>
-                <div class="col-4">
+                <div class="col-4 d-flex">
                     <x-aboutUs-card label='Send Us Email' info='yehia.webcraft@gmail.com' icon='images/email-icon.png' />
 
                 </div>
-                <div class="col-4">
+                <div class="col-4 d-flex">
                     <x-aboutUs-card label='Call Us Now' info='+972526699004' icon='images/phone-icon.png' />
                 </div>
             </div>
@@ -48,7 +48,7 @@
 
                         <div class="row">
                             <div class="col">
-                                <button type="submit" class="secondary-btn">
+                                <button type="submit" class="btn secondary-btn">
                                     Submit
                                 </button>
                             </div>

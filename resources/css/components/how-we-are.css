@@ -29,3 +29,14 @@
     border-left: 1px solid white;
 }
 
+#about-video {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #000;
+}
+
+#about-video video {
+    width: 100%;
+    max-height: 500px;
+    display: block;
+}

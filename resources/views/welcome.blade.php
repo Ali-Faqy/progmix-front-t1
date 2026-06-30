@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <x-chatbot></x-chatbot>
     <x-header></x-header>
     <main>
         <x-main-slider></x-main-slider>

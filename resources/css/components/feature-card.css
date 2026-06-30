@@ -26,6 +26,8 @@
     border-radius: 100%;
     padding: 15px;
     margin-left:15px;
+    width: 64px;
+    height: 64px;
     transform: translateX(50%);
 }
 .feature-card:nth-of-type(odd) .feature-card-content-title{
